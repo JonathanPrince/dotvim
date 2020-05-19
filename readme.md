@@ -1,15 +1,27 @@
 # .vim
 Vim config using submodules and native packages
 
+## Modules
+### Color scheme
+- onedark
+
+### Plugins
+- auto-pairs
+- lightline
+- nerdtree
+
+### Syntax
+- vim-javascript
+
 ## Setup on new machine
 
-1. Clone repo to home directory
+1. Clone repo to .vim/ in home directory
 2. Create symbolic link for .vimrc
 3. init submodules
 
 ```
 cd ~
-git clone http://github.com/jonathanprince/dotvim.git ~/.vim
+git clone https://github.com/JonathanPrince/dotvim.git ~/.vim
 ln -s ~/.vim/vimrc ~/.vimrc
 cd ~/.vim
 git submodule update --init
