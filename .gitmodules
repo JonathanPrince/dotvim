@@ -1,0 +1,15 @@
+[submodule "pack/plugins/start/nerdtree"]
+	path = pack/plugins/start/nerdtree
+	url = https://github.com/scrooloose/nerdtree
+[submodule "pack/colors/opt/onedark.vim"]
+	path = pack/colors/opt/onedark.vim
+	url = https://github.com/joshdick/onedark.vim
+[submodule "pack/plugins/start/lightline"]
+	path = pack/plugins/start/lightline
+	url = https://github.com/itchyny/lightline.vim
+[submodule "pack/syntax/start/vim-javascript"]
+	path = pack/syntax/start/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule "pack/plugins/start/auto-pairs"]
+	path = pack/plugins/start/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs.git
