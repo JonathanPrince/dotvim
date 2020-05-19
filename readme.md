@@ -33,6 +33,14 @@ cd ~/.vim
 git submodule add https://github.com/User/plugin-name.git pack/plugins/start/plugin-name
 ```
 
+## Removing modules
+```
+git submodule deinit pack/plugins/start/plugin-name
+git rm pack/plugins/start/plugin-name
+rm -Rf .git/modules/pack/plugins/start/plugin-name
+git commit
+```
+
 ## Updating submodules
 ```
 git submodule foreach git pull origin master
