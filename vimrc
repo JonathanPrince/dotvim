@@ -29,3 +29,5 @@ let NERDTreeShowHidden=1
 " == close when no other buffers are open ==
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 nmap ,n :NERDTreeFind<CR>
+
+let g:ale_linters = {'javascript': ['standard']}
